@@ -1,0 +1,74 @@
+html, body {
+    font-size: 16px;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    color: white;
+    position: relative;
+}
+
+nav i {
+    font-size: 3rem;
+    color: white;
+    margin-left: 1rem;
+}
+
+nav a {
+    margin-right: 1rem;
+}
+
+.cover {
+    height: 500px;
+    background-image: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8Y29kZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    background-repeat: repeat;
+    color: white;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cover i {
+    color: purple;
+    font-size: 7rem;
+    transition: font-size .3s ease;
+}
+
+.cover i:hover {
+    font-size: 14rem;
+}
+
+.cover h1 {
+    margin: 0;
+    font-size: 4rem;
+}
+
+.cover p {
+    font-size: 1.5rem;
+    padding: 0px 50px 0px 50px;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: .7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
